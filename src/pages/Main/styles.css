@@ -1,0 +1,29 @@
+#main {
+    margin: 23px 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.title-box {
+    color: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 300;
+    padding: 0px;
+    border-radius: 20px;
+    background-color: #000000ce;
+
+}
+
+h2 {
+    font-weight: 300;    
+}
+
+.title-box > h1 {
+    font-weight: 100;
+    margin: 2px;
+    padding: 0px;
+}
