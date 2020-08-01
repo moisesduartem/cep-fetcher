@@ -1,12 +1,14 @@
 import React, { Component } from 'react';
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faHome } from '@fortawesome/free-solid-svg-icons';
+import Header from './components/Header';
+import Main from './pages/Main';
+import './styles.css';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <FontAwesomeIcon icon={faHome} />
+        <Header />
+        <Main />
       </div>
     );
   }
