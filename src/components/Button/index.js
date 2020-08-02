@@ -4,7 +4,7 @@ import './styles.css';
 class Button extends Component {
     render() {
         return (
-        <button>{this.props.label}</button>
+        <button>{this.props.icon}<span>{this.props.children}</span></button>
         )
     }
 }
