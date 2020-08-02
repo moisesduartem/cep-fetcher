@@ -7,14 +7,15 @@
 }
 
 .title-box {
-    color: #FFF;
+    color: #000;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-weight: 300;
-    padding: 0px;
-    border-radius: 20px;
-    background-color: #000000ce;
+    padding: 5px;
+    border-radius: 30px;
+    background-color: #2855b428;
+    box-shadow: 0px 0px 3px #000000c2;
+
 
 }
 

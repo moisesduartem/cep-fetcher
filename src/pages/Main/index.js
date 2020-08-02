@@ -6,13 +6,9 @@ import './styles.css';
 
 class Main extends Component {
 
-    state = {
-        gender: ['o', 'a', 'x'],
-    };
+    genderLetters = ['o', 'a', 'x'];
 
-    randomGenderViewer = () => {
-
-    }
+    state = {};
 
     showThisOption = () => (
         alert('Aqui')
@@ -20,18 +16,17 @@ class Main extends Component {
 
     render() {
 
+        // setInterval(this.viewGenderLetters, 1500);
+
         const angleRight = <FontAwesomeIcon icon={faAngleRight} />
 
         return (<div id="main">
             <div className="title-box">
-                {/* <h1>{`Bem-vind${this.state.gender}!`}</h1> */}
+                <h1>Bem-vindo(a)!</h1>
             </div>
-
             <h2>Buscar endereço por:</h2>
             <Button option="1" icon={angleRight}>CEP</Button>
             <Button option="2" icon={angleRight}>Outros dados</Button>
-
-
         </div>);
     }
 }
