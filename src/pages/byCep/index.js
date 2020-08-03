@@ -58,7 +58,7 @@ class byCep extends Component {
 
     render() {
 
-        const { cep, adress } = this.state;
+        const { adress } = this.state;
 
         return (<Feed style={{ display: 'flex', flexDirection: 'row' }}>
             <form onSubmit={this.handleSubmit}>
@@ -68,7 +68,7 @@ class byCep extends Component {
 
             {(!adress) ? <this.InvalidCep /> : <this.AdressList adress={adress} />}
 
-            <Button style={{ display: 'flex', justifyContent: 'space-between' }} to="/">Voltar</Button>
+            <Button style={{ display: 'flex', justifyContent: 'center' }} to="/">Voltar</Button>
         </Feed>);
     }
 }
