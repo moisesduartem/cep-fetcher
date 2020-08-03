@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Button from '../../components/Button';
 import Feed from '../../components/Feed';
+import Input from '../../components/Input';
 import './styles.css'; 
 
 class byCep extends Component {
@@ -11,7 +12,7 @@ class byCep extends Component {
 
         return (<Feed style={{ display: 'flex', flexDirection: 'row' }}>
             <form>
-                <input placeholder="Digite o CEP..."></input>
+                <Input type="number" placeholder="Digite o CEP..."></Input>
             </form>
             <Button style={{ display: 'flex', justifyContent: 'space-between' }} to="/">Voltar</Button>
         </Feed>);
