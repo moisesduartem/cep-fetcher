@@ -1,0 +1,27 @@
+button {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    border-radius: 5px;
+    border: 2px solid rgba(30, 108, 255, 0.89);
+    background: #0055f3e3;
+    margin: 5px auto 5px 8px;
+    color: #FFF;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+button:hover {
+    text-decoration: none;
+    color: #0055f3e3;
+    border: 2px solid #0055f3e3;
+    background-color: #FFF;
+}
+
+button > span {
+    display: flex;
+    position: relative;
+    margin: 0 auto;
+}
