@@ -8,7 +8,7 @@ import byCep from './pages/byCep';
 const Routes = () => (
     <BrowserRouter>
         <Switch>
-            <Route exac path="/" component={Main} />
+            <Route exact path="/" component={Main} />
             <Route path="/cep/" component={byCep} />
         </Switch>
     </BrowserRouter>
