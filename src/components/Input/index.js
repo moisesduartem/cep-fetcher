@@ -4,7 +4,7 @@ import './styles.css';
 class Input extends Component {
     
     render() {
-        return (<input type={this.props.type} placeholder={this.props.placeholder}>
+        return (<input onChange={this.props.onChange} type={this.props.type} placeholder={this.props.placeholder}>
             {this.props.children}
         </input>);
     }
