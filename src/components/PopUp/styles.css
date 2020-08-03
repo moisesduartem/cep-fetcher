@@ -1,0 +1,13 @@
+    .pop-up {
+    position: relative;
+    top: -35px;
+    font-size: 14px;
+    font-weight: 300; 
+    max-width: 300px;
+    margin: 0px 20%;
+    padding: 15px;
+    border: 1px solid #acacac;
+    box-shadow: 5px 4px 5px #00000025;
+    border-radius: 20px 0px 20px 20px;
+    background-color: #FFF;
+    }
