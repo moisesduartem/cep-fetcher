@@ -18,3 +18,13 @@ body {
 #page {
     padding: 0 10px;
 }
+
+
+
+small {
+    color: #1d1d1dc9;
+    position: absolute;
+    bottom: 0;
+    margin: 10px auto;
+    text-align: center;
+}

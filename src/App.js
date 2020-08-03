@@ -10,6 +10,7 @@ class App extends Component {
         <Header />
         <div id="page">
           <Routes />
+          <small>Moisés Mariano - github.com/moisesduartem - viacep.com.br</small>
         </div>
       </div>
     );
