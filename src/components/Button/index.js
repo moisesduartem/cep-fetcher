@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import './styles.css';
 
 class Button extends Component {
     render() {
         return (
-        <button>{this.props.icon}<span>{this.props.children}</span></button>
-        )
+        <Link style={{ textDecoration: 'none' }} to={this.props.to}>
+            {this.props.children}
+        </Link>);
     }
 }
 
