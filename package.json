@@ -1,5 +1,5 @@
 {
-  "name": "qual-meu-cep",
+  "name": "cep-fetcher",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
