@@ -16,7 +16,7 @@ class Main extends Component {
             <h2>Buscar endereço por:</h2>
             <div id="button-list">
                 <Button to="/cep/">CEP</Button>
-                <Button to="">Outros dados</Button>
+                <Button disabled to="">Outros dados</Button>
             </div>
         </Feed>);
     }
