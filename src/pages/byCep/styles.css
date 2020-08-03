@@ -3,17 +3,3 @@ form {
     justify-content: center;
     padding: 5px auto;
 }
-
-input {
-    width: 100%;
-    margin: 3px auto;
-    font-size: 17px;
-    font-weight: 300;
-    border: 1.5px solid #0055f350;
-    padding: 10px;
-    border-radius: 5px;
-}
-
-input:visited {
-    background-color: #fffacd;
-}
