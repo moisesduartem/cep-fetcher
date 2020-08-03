@@ -5,7 +5,7 @@ import './styles.css';
 class Button extends Component {
     render() {
         return (
-        <Link style={{ textDecoration: 'none' }} to={this.props.to}>
+        <Link style={this.props.style} disabled={this.props.disabled}  to={this.props.to}>
             {this.props.children}
         </Link>);
     }
